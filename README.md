@@ -41,7 +41,14 @@ $data = $classification->getByThirdCategory('0141');
 
 ```
 ## Use in Symfony forms
-Please refer to the [Example](example/select.php)
+```php
+$classification = new \Wispiring\ChinaEconomyClassification\Classification();
+
+// Get array for select html widget
+$data = $classification->getSelectArray();
+
+```
+Please refer to the [concrete example](example/select.php).
 
 ## License
 
