@@ -9,7 +9,7 @@ $o = '<select onchange="show(this)">';
 foreach ($data as $label => $d) {
     $o .= '<optgroup label="'.$label.'">';
     foreach ($d as $value => $name) {
-        $o.= '<option value="'.$value.'">'.$name.'</option>';
+        $o .= '<option value="'.$value.'">'.$name.'</option>';
     }
     $o .= '</optgroup>';
 }
