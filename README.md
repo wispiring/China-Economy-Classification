@@ -1,7 +1,9 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/wispiring/China-Economy-Classification/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/wispiring/China-Economy-Classification/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/wispiring/China-Economy-Classification/badges/build.png?b=master)](https://scrutinizer-ci.com/g/wispiring/China-Economy-Classification/build-status/master)
 
-# China-Economy-Classification
+# China Economy Classification Codes
+## 国民经济行业分类与代码
+
 A PHP library to get the GB/5754 codes.
 
 China National Economy Classification Codes GB/4754-2011.
