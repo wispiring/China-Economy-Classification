@@ -1,19 +1,19 @@
 {
-	"name" : "wispiring/china-economy-classification",
-	"description" : "China National Economy Classification Codes 国民经济行业分类与代码 GB/4754-2011",
-	"homepage" : "https://github.com/wispiring/China-Economy-Classification",
-	"keywords" :  ["Hongliang", "Wispiring", "China", "economy", "classification", "2011", "GB/4754", "4754", "国民经济行业分类与代码", "中国", "分类"],
-	"type" : "application",
+    "name" : "wispiring/china-economy-classification",
+    "description" : "China National Economy Classification Codes 国民经济行业分类与代码 GB4754-2011",
+    "homepage" : "https://github.com/wispiring/China-Economy-Classification",
+    "keywords" :  ["Hongliang", "Wispiring", "China", "economy", "classification", "2011", "GB4754", "4754", "国民经济行业分类与代码", "中国", "分类"],
+    "type" : "application",
     "license": "MIT",
-	"authors" : [{
-			"name" : "Hongliang",
-			"email" : "code@wispiring.com",
-			"role" : "Development"
-		}
-	],
-	"autoload" : {
-		"psr-4" : {
-			"Wispiring\\ChinaEconomyClassification\\" : "src/"
-		}
-	}
+    "authors" : [{
+            "name" : "Hongliang",
+            "email" : "code@wispiring.com",
+            "role" : "Development"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Wispiring\\ChinaEconomyClassification\\" : "src/"
+        }
+    }
 }
