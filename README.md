@@ -40,6 +40,9 @@ $data = $classification->getBySecondCategory('389');
 $data = $classification->getByThirdCategory('0141');
 
 ```
+## Use in Symfony forms
+Please refer to the [Example](example/select.php)
+
 ## License
 
 This software is licensed under the [MIT License](LICENSE).

@@ -33,6 +33,22 @@ class Classification
         return isset($this->data[$code]) ? $this->data[$code] : null;
     }
 
+    public function getSelectArray()
+    {
+        $o = [];
+        foreach ($this->data as $key => $value) {
+            if (strlen($value['code']) !== 4) {
+                continue;
+            }
+            $groupLabel = $value['top_category'].' '.$this->data[$value['top_category']]['name'];
+            if (!isset($o[$groupLabel])) {
+                $o[$groupLabel] = [];
+            }
+            $o[$groupLabel][$value['code']]= $value['name'];
+        }
+        return $o;
+    }
+
     public function getByName($name)
     {
         foreach ($this->data as $value) {
