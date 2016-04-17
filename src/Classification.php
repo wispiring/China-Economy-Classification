@@ -44,7 +44,7 @@ class Classification
             if (!isset($o[$groupLabel])) {
                 $o[$groupLabel] = [];
             }
-            $o[$groupLabel][$value['code']]= $value['name'];
+            $o[$groupLabel][$value['code']]= $value['code'].' '.$value['name'];
         }
         return $o;
     }
