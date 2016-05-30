@@ -40,6 +40,28 @@ $data = $classification->getBySecondCategory('389');
 $data = $classification->getByThirdCategory('0141');
 
 ```
+## Generating HTML select element
+Examples can be found in the example dir
+```php
+# single select
+
+$classification = new \Wispiring\ChinaEconomyClassification\Classification();
+// passing the name of the select widget as parameter
+echo $classification->getSelectWidget('cec');
+// passing both the name and the selected value
+echo $classification->getSelectWidget('cec', '3399');
+
+# 4 select combo - the cec.js is required, no other JavaScript libs needed
+
+$classification = new \Wispiring\ChinaEconomyClassification\Classification();
+
+echo '<script>'.file_get_contents('../assets/cec.js').'</script>';
+
+echo $classification->getSelectWidget4('cec', '1810');
+echo $classification->getSelectWidget4('test', '7724');
+echo $classification->getSelectWidget4('test2');
+
+```
 ## Use in Symfony forms
 ```php
 $classification = new \Wispiring\ChinaEconomyClassification\Classification();
